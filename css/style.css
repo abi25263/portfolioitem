@@ -81,10 +81,10 @@ p {
 }
 
 .file-upload:hover {
-    background: #2FA2FF;
+    background: #f89a28;
 }
 .file-upload.focus {
-    outline: 2px solid yellow;
+    outline: 2px solid #f89a28;
 }
 
 .file-upload input {
@@ -118,7 +118,7 @@ p {
     font-size: 16px;
     color: #888;
     background: #f8f8f8;
-    border: 3px solid #ddd;
+    border: 2px solid #ddd;
 }
 /* end form */
 
