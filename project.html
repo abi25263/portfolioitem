@@ -53,128 +53,47 @@
   <!-- The Grid -->
   <div class="w3-row">
     <!-- Left Column -->
-    <div class="w3-col m3">
+    <div class="w3-col m12" id="project">
       <!-- Profile -->
-      <div class="w3-card w3-round w3-white">
+      <div class="w3-card w3-round w3-white" id="uploading">
         <div class="w3-container">
-         <h4 class="w3-center">Add details</h4>
-         <!-- <p class="w3-center">
-           <img src="img/abby.jpg" class="w3-circle" style="height:106px;width:106px" alt="Avatar">
-         </p> -->
+         <h4 class="w3-center">Upload your portfolio</h4>
          <hr>
-         <p><i class="fa fa-upload w3-margin-right w3-text-theme" aria-hidden="true"></i> Upload files</p>
+         <p class="icons"><i class="fa fa-upload w3-margin-right w3-text-theme" aria-hidden="true"></i> Upload files</p>
          <!-- test for upload the file -->
-         <div class="ui-widget" id="fileupload"><form action="/service/v2/classified/45867/dealer/2/token/81509767/upload" method="POST" enctype="multipart/form-data"><div class="fileupload-buttonbar">
+         <div class="ui-widget" id="fileupload">
+           <form action="/service/v2/classified/45867/dealer/2/token/81509767/upload" method="POST" enctype="multipart/form-data">
+             <div class="fileupload-buttonbar">
 
-    <label class="file-upload">Upload files<input name="uploadfile" multiple="" type="file"></label>
+             <label class="file-upload">Upload files<input name="uploadfile" multiple="" type="file"></label>
 
-</div></form>
-         <!-- test for upload file end -->
-          <p><i class="fa fa-text-width w3-margin-right w3-text-theme" aria-hidden="true"></i> Add text</p>
-         <p><i class="fa fa-pencil w3-margin-right w3-text-theme"></i> Edit styles and layout</p>
-         <!-- <p><i class="fa fa-envelope-o w3-margin-right w3-text-theme"></i> abi25263@gmail.com</p> -->
-        </div>
-      </div>
-      <br>
-
-      <!-- Accordion -->
-      <!-- <div class="w3-card w3-round">
-        <div class="w3-white">
-          <button onclick="myFunction('Demo1')" class="w3-button w3-block w3-theme-l1 w3-left-align"><i class="fa fa-circle-o-notch fa-fw w3-margin-right"></i> My Groups</button>
-          <div id="Demo1" class="w3-hide w3-container">
-            <p>Some text..</p>
-          </div>
-          <button onclick="myFunction('Demo2')" class="w3-button w3-block w3-theme-l1 w3-left-align"><i class="fa fa-calendar-check-o fa-fw w3-margin-right"></i> My Events</button>
-          <div id="Demo2" class="w3-hide w3-container">
-            <p>Some other text..</p>
-          </div>
-          <button onclick="myFunction('Demo3')" class="w3-button w3-block w3-theme-l1 w3-left-align"><i class="fa fa-users fa-fw w3-margin-right"></i> My portfolio</button>
-          <div id="Demo3" class="w3-hide w3-container">
-         <div class="w3-row-padding">
-         <br>
-           <div class="w3-half">
-             <img src="img/postertwo.jpg" style="width:100%" class="w3-margin-bottom">
-           </div>
-           <div class="w3-half">
-             <img src="img/postertwo.jpg" style="width:100%" class="w3-margin-bottom">
-           </div>
-           <div class="w3-half">
-             <img src="img/postertwo.jpg" style="width:100%" class="w3-margin-bottom">
-           </div>
-           <div class="w3-half">
-             <img src="img/postertwo.jpg" style="width:100%" class="w3-margin-bottom">
-           </div>
-           <div class="w3-half">
-             <img src="img/postertwo.jpg" style="width:100%" class="w3-margin-bottom">
-           </div>
-           <div class="w3-half">
-             <img src="img/postertwo.jpg" style="width:100%" class="w3-margin-bottom">
-           </div>
-         </div>
-          </div>
-        </div>
-      </div> -->
-      <br>
-
-      <!-- Interests -->
-      <div class="w3-card w3-round w3-white w3-hide-small">
-        <!-- <div class="w3-container">
-          <p> My Interests</p>
-          <p>
-            <hr>
-            <p> Design</p>
-              <p> Typography , AR/VR</p>
-            <p> Cooking and Gardening</p>
-          </p>
-        </div> -->
-      </div>
-      <br>
-
-      <!-- Alert Box -->
-      <!-- <div class="w3-container w3-display-container w3-round w3-theme-l4 w3-border w3-theme-border w3-margin-bottom w3-hide-small">
-        <span onclick="this.parentElement.style.display='none'" class="w3-button w3-theme-l3 w3-display-topright">
-          <i class="fa fa-remove"></i>
-        </span>
-        <p><strong>Hey!</strong></p>
-        <p>People are looking at your profile. Find out who.</p>
-      </div> -->
-
-    <!-- End Left Column -->
-    </div>
-
-    <!-- Middle Column top-->
-    <div class="w3-col m9">
-
-      <div class="w3-row-padding">
-        <div class="w3-col m12">
-          <div class="w3-card w3-round w3-white">
-            <div class="w3-container w3-padding">
-              <h4 class="w3-center"> Start building your projects</h4>
             </div>
-          </div>
+          </form>
+         <!-- test for upload file end -->
+
         </div>
       </div>
-    </div>
-    <!--***************************************
-    *********************** End Middle Column top -->
-
-    <!-- middle column bottom -->
-    <div class="w3-container">
+      <div class="w3-container">
+        <p class="icons"><i class="fa fa-text-width w3-margin-right w3-text-theme" aria-hidden="true"></i> Add text</p>
+        <div id="text">
 
 
+        <form action="/action_page.php">
+          Enter your text here
+          <br>
+        <input type="text" name="firstname" value="">
+          <br>
+          <br />
+       <input type="submit" value="Submit">
+       </form>
+         </div>
+      </div>
+    </div> <!-- End profile -->
 
-    </div>
-    <!--*****************************************
-  *****************end middle column bottom  -->
+    </div> <!-- End Left Column -->
+  </div> <!-- End Grid -->
+</div> <!-- End Page Container -->
 
-
-
-  <!-- End Grid -->
-  </div>
-
-<!-- End Page Container -->
-</div>
-<br>
 
 <!-- *******************************
 ******************************Footer -->

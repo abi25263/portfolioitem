@@ -121,3 +121,21 @@ p {
     border: 3px solid #ddd;
 }
 /* end form */
+
+
+#project{
+  height: 150vh;
+}
+#uploading {
+  height: 140vh;
+}
+.icons {
+  margin-top: 100px;
+  text-align: center;
+}
+#text {
+  text-align: center;
+}
+#fileupload {
+  text-align: center;
+}
